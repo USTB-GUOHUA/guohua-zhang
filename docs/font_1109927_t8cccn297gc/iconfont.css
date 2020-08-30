@@ -1,0 +1,26 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1556115735284'); /* IE9 */
+  src: url('iconfont.eot?t=1556115735284#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOoAAsAAAAAB+QAAANZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDSIMOATYCJAMMCwgABCAFhG0HORvXBhHVm9XIfiTGMSnrzPIq2qMxEwRUV1Zj53o6kDWBDp6NoJ+PfiZ+5r0BsDnX1JNREWYo36JHX0hxW3pZHv/nmOlSPP+C5xKZ1ImjvQGOB7IBRRfXHeAdyAn6DWNXLaVBL4cALHVpjRg8dPRkDBrcTgBi9YplCzApNbomWWAQOCVDNSKWAEYel0lAjP/74g8dhQFJQIFXGr90yGL6f6/5fabyQh6zlYc3nhGQR4ECWgMaxNxS83RU6GuNwppiXR/toBHIsZyhkM+2hA75hwcSAcIBJ5YGoDnyS/hek7FjyUzIPetsBYADclkSgdcjpIPE6LAmpfENypSpWXpXBcrvsLK0sssW+bdIvGnt84y6YRcyu5V7ll4nvVX47ari9G1bNvxmdX3qVpNt2dlTsrIm5+RMzc2dQ4XTAmaSUVB7ru97idaGB/efqLYoRJWuU6pMhD/NS6xcNqghytHOTgyvOjVYTVVK8EYRPpTy/Sp+5altmRlmv+8hN3mPzz/u1bDZv155vf7l5dFFpKsy5SaXyxg/SVfQk8f/HD9ZXy07qU772rHyZOWnlY7JEnm0fm8Tpd48V8dV+NvnkSp2yHB53K0SNXqTPBOUG+R6YNokN0PBeoUBZ0mfF/u1UpL96CZV+uplDbLf7HuxdpL73iadHGu/etO9r+h5092kEQ+WV1s+f/XxeuaW6bvEvW2b29vukn7zb1Yre/pIsvu64hu3ub1T8balPwAhT+Ur7//9DUm9C77MK9f7vymlAcj7Hl/NHxLyNMoDDBJac/4Wp2WetnhYo7TBZmwnqDiOeRfxWCzwj1IBKlLS31oFYqPAKBwIkjDqgMLQGKmxrSFAKTqDg6EfWFoxbHQpKrERhdAu0JLDAATleQCSsnwARXmSkRpbDAGq8g8cygsFlqmi0pSlaCrUuDswKkEL+gfR0OyoTnZB8hX9a1Sc5Pm4J/ISndA3XTZ4wRl5jB7L2w8iDhzTBGewGo4jQWFKaKQJImXftq7sQY2hqdpxYFSCFvQPoqHZucVll/v5K/rXqLgmp0n/RF5i5dA3XQvkRTy3yrmWU5a3H0QcOKYJzsCII/ERlPJGCY00oYen7FtUyLUVN/NLp+dbAljw3EpIoYRmtSDWQmX1jeqvYlUBAAAA') format('woff2'),
+  url('iconfont.woff?t=1556115735284') format('woff'),
+  url('iconfont.ttf?t=1556115735284') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1556115735284#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 22px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(3, 55, 153);
+}
+
+.icon-ai-top:before {
+  content: "\e65a";
+}
+
+.icon-xiazai:before {
+  content: "\e61a";
+}
+

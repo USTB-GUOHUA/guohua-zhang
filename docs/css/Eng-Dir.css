@@ -1,0 +1,56 @@
+/* @英文版导航栏子菜单
+*/
+.submenu{
+    float: unset;
+    width: 200px;
+    display: none;
+}
+.block {
+    width: 370px;
+    padding: 4px 0px 4px 0px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+}
+.block > li {
+    line-height: initial;
+    text-align: center;
+}
+.block > li > a {
+    line-height: 50px;
+}
+.submenu a:hover {
+    color: #ff6700;
+    text-decoration: underline;
+}
+.show .submenu{
+    display: initial;
+}
+
+/*@英文版研究方向选择标签
+*/
+.choose {
+    width: 930px;
+    height: 135px;
+    margin-top: 30px;
+}
+.choose > li {
+    display: block;
+    float: left;
+    height: 35px;
+    width: 400px;
+    margin: 5px 32.5px;
+    font-size: 17px;
+    line-height: 35px;
+    text-align: center;
+    background: #e6e6e6;
+}
+.choose > li > a {
+    color: #333;
+    font-weight: 600;
+}
+.choose > li > a:hover {
+    color: #ff6700;
+}
+.choose .active > a {
+    color: #ff6700;
+}

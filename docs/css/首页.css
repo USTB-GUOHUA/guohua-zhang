@@ -1,0 +1,252 @@
+/* @整体布局 
+*/
+body {
+    /* height: 2500px; */
+    padding: 0px;
+    margin: 0px;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+ul,li {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.container::before,.clearfix::before {
+    content: "";
+    display: table;
+}
+.container::after,.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+
+/* @顶部条 
+*/
+.topbar {
+    background-color: rgb(4, 52, 139);
+    /* border: 1px solid black;  */
+    height: 46px;
+    /* width: 1572px; */
+}
+.container {
+    width: 1000px;
+    /* height: 50px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.topbar-left {
+    float: left;
+    height: 46px;
+    /* width: 200px; */
+    text-align: center;
+    color: #fff;
+    line-height: 46px;
+}
+.topbar-right {
+    float: right;
+    width: 100px;
+    text-align: center;
+    line-height: 46px;
+}
+.topbar-right a {
+    color: #fff;
+}
+
+/* @头部图片 
+*/
+.head {
+    height: 120px;
+}
+.head .container {
+    height: 120px;
+    background: url(../img/title.png) no-repeat 50% 0;
+}
+
+/* @导航栏 
+*/
+.nav {
+    width: 1000px;
+    height: 55px;
+    box-shadow: 4px 4px 12px 3px #5a5959;
+    background:#fff;
+}
+.nav > ul {
+    height: 55px;
+    width: 1000px;
+    padding: 0px;
+}
+.nav-list > li {
+    display: block;
+    float: left;
+    height: 55px;
+    width: 200px;
+    font-size: 17px;
+    line-height: 55px;
+    text-align: center;
+}
+.nav a {
+    font-weight: 600;
+    color: #333;
+}
+.nav a:hover {
+    color: #ff6700;
+}
+.nav .active a{
+    color: #ff6700;
+}
+
+/* @导航栏子菜单
+*/
+.submenu{
+    float: unset;
+    width: 200px;
+    display: none;
+}
+.block {
+    padding: 4px 0px 4px 0px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+}
+.block > li {
+    line-height: initial;
+    text-align: center;
+}
+.block > li > a {
+    line-height: 50px;
+}
+.submenu a:hover {
+    color: #ff6700;
+    text-decoration: underline;
+}
+.show .submenu{
+    display: initial;
+}
+
+/* @风景图片 
+*/
+.background {
+    margin-top: 15px;
+    height: 400px;
+    background: url(../img/new.jpg) no-repeat 50% 0;
+}
+
+/* @研究方向
+*/
+/* .direction {
+    width: 1278px;
+    height: 180px;
+}
+.dir-list {
+    width: 1278px;
+    height: 150px;
+}
+.dir-list > li{
+    display: block;
+    float: left;
+    width: 319.5px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+.dir-list > li > a {
+    height: 100px;
+    color: #333;
+    font-size: 20px;
+}
+.dir-list > li > a:hover {
+    color: #ff6700;
+}
+.sty1 {
+    background: #eeeeee;
+}
+.sty2 {
+    background: #e6e6e6
+} */
+
+/* @页面文本部分 
+*/
+.page {
+    margin-top: 20px;
+    background: url(../img/page.gif) repeat-y center;
+}
+.pagebottom {
+    height: 20px;
+    background: url(../img/pagebottom.gif) no-repeat center;
+}
+.textbox {
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    width: 930px;
+}
+.text-top {
+    height: 70px;
+    background: url(../img/introduction.png)no-repeat center;
+}
+.text {
+    margin: 60px 30px 0px;
+    /* border: 1px solid black; */
+}
+.text-pic {
+    float: left;
+}
+.text-one {
+    float: left;
+    width: 500px;
+    margin-left: 45px;
+    line-height: 40px;
+    font-size: 18px;
+    text-indent: 36px;
+    text-align: justify;
+}
+.text-two {
+    float: left;
+    width: 825px;
+    line-height: 40px;
+    font-size: 18px;
+    text-indent: 36px;
+    text-align: justify;
+}
+
+/* @返回顶部图标
+*/
+.jump {
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+}
+.return {
+    /* float: left; */
+    color: #333;
+}
+.myIcon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+    background-color: #fff;
+    border: 1.5px solid #e0e0e0;
+}
+.myIcon:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+/* @页面最底部
+*/
+.foot {
+    margin-top: 40px;
+    height: 100px;
+    background: rgb(4, 52, 139);
+}
+.footbox {
+    padding-top: 15px;
+}
+.foot p {
+    color: #fff;
+    text-align: center;
+    font-family: 宋体;
+}
